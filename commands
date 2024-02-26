@@ -1,0 +1,3 @@
+depkoy in cli hello world
+kubectl run hello-kube --image=fhsinchy/hello-kube --port=80
+kubectl expose pod hello-kube --type=LoadBalancer --port=80
