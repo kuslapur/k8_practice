@@ -1,3 +1,8 @@
 depkoy in cli hello world
 kubectl run hello-kube --image=fhsinchy/hello-kube --port=80
 kubectl expose pod hello-kube --type=LoadBalancer --port=80
+kubectl describe pod api-deployment-7687b5c4-9ndr7
+kubectl logs api-deployment-7687b5c4-9ndr7
+kubectl get deployment
+kubectl apply -f notes-api.yaml
+kubectl delete deploy api-deployment
